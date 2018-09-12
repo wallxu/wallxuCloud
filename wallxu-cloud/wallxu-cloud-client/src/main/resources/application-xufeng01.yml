@@ -1,0 +1,17 @@
+server:
+  port: 8011
+
+
+spring:
+  application:
+    name: customer
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone : http://xufeng01:8081/eureka/
+    register-with-eureka: false
+    fetch-registry: true
+
+

@@ -1,0 +1,14 @@
+com\wallxu\finance\dao\repository\FinanceProductRepository.class
+com\wallxu\finance\dao\entity\FinanceVerificationOrder.class
+com\wallxu\finance\dao\entity\FinanceProduct.class
+com\wallxu\finance\rpc\service\FinanceProductServiceImpl$1.class
+com\wallxu\finance\dao\entity\enums\OrderType.class
+com\wallxu\finance\dao\repository\FinanceOrderRepository.class
+com\wallxu\finance\controller\FinanceProductController.class
+com\wallxu\finance\dao\entity\enums\OrderStatus.class
+com\wallxu\finance\FinanceControllerApplication.class
+com\wallxu\finance\rpc\api\FinanceProductService.class
+com\wallxu\finance\dao\entity\FinanceOrder.class
+com\wallxu\finance\dao\entity\enums\ProductStatus.class
+com\wallxu\finance\dao\repository\FinanceVerificationOrderRepository.class
+com\wallxu\finance\rpc\service\FinanceProductServiceImpl.class

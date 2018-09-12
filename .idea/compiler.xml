@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wallxu-cloud-client" />
+        <module name="wallxu-cloud-server" />
+        <module name="wallxu-common" />
+        <module name="wallxu-dataStructures" />
+        <module name="wallxu-sell" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wallxu-cloud" target="1.8" />
+      <module name="wallxu-cloud-client" target="1.8" />
+      <module name="wallxu-cloud-server" target="1.8" />
+      <module name="wallxu-common" target="1.8" />
+      <module name="wallxu-dataStructures" target="1.8" />
+      <module name="wallxu-finance" target="1.8" />
+      <module name="wallxu-finance-service" target="1.8" />
+      <module name="wallxu-finance-web" target="1.8" />
+      <module name="wallxu-monitor" target="1.8" />
+      <module name="wallxu-parent" target="1.8" />
+      <module name="wallxu-ribbon" target="1.8" />
+      <module name="wallxu-seckill" target="1.8" />
+      <module name="wallxu-seckill-service" target="1.8" />
+      <module name="wallxu-seckill-web" target="1.8" />
+      <module name="wallxu-sell" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wallxu-cloud" options="" />
+      <module name="wallxu-cloud-client" options="" />
+      <module name="wallxu-cloud-server" options="" />
+      <module name="wallxu-common" options="" />
+      <module name="wallxu-dataStructures" options="" />
+      <module name="wallxu-finance" options="" />
+      <module name="wallxu-finance-service" options="" />
+      <module name="wallxu-finance-web" options="" />
+      <module name="wallxu-monitor" options="" />
+      <module name="wallxu-parent" options="" />
+      <module name="wallxu-ribbon" options="" />
+      <module name="wallxu-seckill" options="" />
+      <module name="wallxu-seckill-service" options="" />
+      <module name="wallxu-seckill-web" options="" />
+      <module name="wallxu-sell" options="" />
+    </option>
+  </component>
+</project>

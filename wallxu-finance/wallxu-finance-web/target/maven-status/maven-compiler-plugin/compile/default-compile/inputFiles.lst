@@ -1,0 +1,13 @@
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\entity\enums\OrderType.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\rpc\service\FinanceProductServiceImpl.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\controller\FinanceProductController.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\repository\FinanceOrderRepository.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\repository\FinanceVerificationOrderRepository.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\rpc\api\FinanceProductService.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\entity\FinanceVerificationOrder.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\repository\FinanceProductRepository.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\entity\enums\OrderStatus.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\entity\FinanceProduct.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\entity\FinanceOrder.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\dao\entity\enums\ProductStatus.java
+H:\ideaWorkSpace\wallxu-parent\wallxu-finance\wallxu-finance-web\src\main\java\com\wallxu\finance\FinanceControllerApplication.java

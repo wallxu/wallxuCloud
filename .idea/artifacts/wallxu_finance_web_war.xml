@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wallxu-finance-web:war">
+    <output-path>$PROJECT_DIR$/wallxu-finance/wallxu-finance-web/target</output-path>
+    <root id="archive" name="wallxu-finance-web.war">
+      <element id="artifact" artifact-name="wallxu-finance-web:war exploded" />
+    </root>
+  </artifact>
+</component>

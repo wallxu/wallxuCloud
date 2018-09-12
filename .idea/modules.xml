@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wallxu-cloud/wallxu-cloud.iml" filepath="$PROJECT_DIR$/wallxu-cloud/wallxu-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-cloud/wallxu-cloud-client/wallxu-cloud-client.iml" filepath="$PROJECT_DIR$/wallxu-cloud/wallxu-cloud-client/wallxu-cloud-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-cloud/wallxu-cloud-server/wallxu-cloud-server.iml" filepath="$PROJECT_DIR$/wallxu-cloud/wallxu-cloud-server/wallxu-cloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-common/wallxu-common.iml" filepath="$PROJECT_DIR$/wallxu-common/wallxu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-dataStructures/wallxu-dataStructures.iml" filepath="$PROJECT_DIR$/wallxu-dataStructures/wallxu-dataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-finance/wallxu-finance.iml" filepath="$PROJECT_DIR$/wallxu-finance/wallxu-finance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-finance/wallxu-finance-service/wallxu-finance-service.iml" filepath="$PROJECT_DIR$/wallxu-finance/wallxu-finance-service/wallxu-finance-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-finance/wallxu-finance-web/wallxu-finance-web.iml" filepath="$PROJECT_DIR$/wallxu-finance/wallxu-finance-web/wallxu-finance-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-monitor/wallxu-monitor.iml" filepath="$PROJECT_DIR$/wallxu-monitor/wallxu-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-parent.iml" filepath="$PROJECT_DIR$/wallxu-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-seckill/wallxu-seckill.iml" filepath="$PROJECT_DIR$/wallxu-seckill/wallxu-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-seckill/wallxu-seckill-service/wallxu-seckill-service.iml" filepath="$PROJECT_DIR$/wallxu-seckill/wallxu-seckill-service/wallxu-seckill-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-seckill/wallxu-seckill-web/wallxu-seckill-web.iml" filepath="$PROJECT_DIR$/wallxu-seckill/wallxu-seckill-web/wallxu-seckill-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallxu-sell/wallxu-sell.iml" filepath="$PROJECT_DIR$/wallxu-sell/wallxu-sell.iml" />
+    </modules>
+  </component>
+</project>
