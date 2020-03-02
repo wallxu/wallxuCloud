@@ -10,10 +10,12 @@ _Store
 #gitignore bak file
 *.bak
 target/
+target
 overlays/
 *.jar
 .log
 /bin
+/logs
 .DS_Store
 
 # Compiled class file
