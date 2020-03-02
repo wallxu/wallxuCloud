@@ -1,5 +1,24 @@
+_Store
+.idea
+#ignore iml
+*.iml
+#ignore eclipse file
+.project
+.classpath
+.settings/
+.loadpath
+#gitignore bak file
+*.bak
+target/
+overlays/
+*.jar
+.log
+/bin
+.DS_Store
+
 # Compiled class file
 *.class
+*.java
 
 # Log file
 *.log
