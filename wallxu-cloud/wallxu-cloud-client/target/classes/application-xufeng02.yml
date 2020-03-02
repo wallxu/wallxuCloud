@@ -1,0 +1,10 @@
+server:
+  port: 8012
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone : http://xufeng02:8082/eureka/
+    register-with-eureka: false
+

@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: eureka-client
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: true
+    #要配置service-url，要不默认走8761，要备份通讯的eureka服务地址，
+    service-url:
+      defaultZone : http://xufeng01:8081/eureka/
+  instance:
+    hostname: xufeng01
+
