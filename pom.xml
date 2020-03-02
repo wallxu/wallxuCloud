@@ -14,7 +14,8 @@
 		<module>wallxu-monitor</module>
 		<module>wallxu-sell</module>
 		<module>wallxu-dataStructures</module>
-	</modules>
+        <module>wallxu-mmall</module>
+    </modules>
     <packaging>pom</packaging>
 
 	<name>wallxu-parent</name>

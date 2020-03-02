@@ -51,9 +51,11 @@ public class OrderController {
 
         PageRequest pageRequest = PageRequest.of(page -1, size);
 
+        buyerOpenid = "wallxu@2012";
         Page<OrderDTO> orderDTOPage = orderMasterService.findList(buyerOpenid, pageRequest);
         model.addAttribute("orderDTOPage", orderDTOPage);
         model.addAttribute("currentPage", page == null? 1:page);
+        model.addAttribute("size", size);
         return "/order/list";
     }
 
@@ -77,6 +79,7 @@ public class OrderController {
 
         model.addAttribute("url", httpRequest.getHeader("Referer"));
 
+        openId = "wallxu@2012";
         OrderDTO orderDTO = orderMasterService.findOrderDetailByOrderId(orderId);
         boolean b = orderMasterService.cancel(orderDTO, openId);
         if (b){
@@ -91,7 +94,7 @@ public class OrderController {
                          @RequestParam(value = "openId", required = false) String openId){
 
         model.addAttribute("url", httpRequest.getHeader("Referer"));
-
+        openId = "wallxu@2012";
         OrderDTO orderDTO = orderMasterService.findOrderDetailByOrderId(orderId);
         boolean b = orderMasterService.finish(orderDTO, openId);
         if (b){

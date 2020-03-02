@@ -63,7 +63,7 @@
                         <#if currentPage == index>
                             <li class="disabled"><a href="#">${index}</a></li>
                         <#else>
-                            <li><a href="/sell/seller/order/list?page=${index}&size=${size}">${index}</a></li>
+                             <li><a href="/sell/seller/order/list?page=${index}&size=${size}">${index}</a></li>
                         </#if>
                     </#list>
 
@@ -108,6 +108,7 @@
 
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--
 <script>
     var websocket = null;
     if('WebSocket' in window) {
@@ -141,6 +142,7 @@
     }
 
 </script>
+-->
 
 </body>
 </html>

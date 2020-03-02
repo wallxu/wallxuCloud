@@ -1,5 +1,6 @@
 package com.wallxu.eureka.client.controller;
 
+import com.wallxu.eureka.client.com.wallxu.feign.client.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -10,6 +11,9 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 @RequestMapping(value = "/customer")
 public class CustomerController {
+
+    @Autowired
+    private ClientService clientService;
 
     @Bean
     @LoadBalanced
@@ -29,5 +33,12 @@ public class CustomerController {
     public String helloCustomerTwo(){
 
         return restTemplate.getForEntity("http://EUREKA-CLIENT/client/helloWorld", String.class, "8885").getBody();
+    }
+
+
+    @RequestMapping(value = "/helloFeign")
+    public String helloFeign(){
+
+        return clientService.helloWorld();
     }
 }

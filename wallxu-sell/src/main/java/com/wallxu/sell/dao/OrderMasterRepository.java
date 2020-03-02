@@ -15,8 +15,8 @@ public interface OrderMasterRepository extends JpaRepository<OrderMaster, String
 
     @Modifying
     @Transactional
-    @Query("update OrderMaster o set o.payStatus = :status where o.orderId = :orderId ")
-    boolean updateOrderSatus(@Param("orderId") String orderId, @Param("status") Integer status);
+    @Query("update OrderMaster o set o.orderStatus = :status where o.orderId = :orderId ")
+    Integer updateOrderSatus(@Param("orderId") String orderId, @Param("status") Integer status);
 
     OrderMaster findByOrderIdAndOrderStatus(String orderId, Integer code);
 

@@ -28,7 +28,6 @@ import org.springframework.util.CollectionUtils;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -119,7 +118,7 @@ public class OrderMasterServiceImpl implements OrderMasterService {
     public OrderDTO findOrderDetailByOrderId(String orderId) {
         OrderDTO orderDTO  = new OrderDTO();
 
-        Optional<OrderMaster> orderMaster = orderMasterRepository.findById(orderId);
+        OrderMaster orderMaster = orderMasterRepository.findById(orderId).get();
         if (orderMaster == null){
             throw new SellException(ResultEnum.ORDER_NOT_EXIST.getMessage());
         }
@@ -154,7 +153,7 @@ public class OrderMasterServiceImpl implements OrderMasterService {
         orderDTO.setOrderStatus(OrderStatusEnum.CANCEL.getCode());
         BeanUtils.copyProperties(orderDTO, orderMaster);
 
-        if(orderMasterRepository.updateOrderSatus(orderDTO.getOrderId(), OrderStatusEnum.CANCEL.getCode())){
+        if(orderMasterRepository.updateOrderSatus(orderDTO.getOrderId(), OrderStatusEnum.CANCEL.getCode()) != 1){
             log.error("【取消订单】更新失败, orderMaster={}", orderMaster);
             throw new SellException(ResultEnum.ORDER_UPDATE_FAIL.getMessage());
         }
@@ -196,10 +195,10 @@ public class OrderMasterServiceImpl implements OrderMasterService {
         }
 
         //修改订单状态
-        orderDTO.setOrderStatus(OrderStatusEnum.CANCEL.getCode());
+        orderDTO.setOrderStatus(OrderStatusEnum.FINISHED.getCode());
         BeanUtils.copyProperties(orderDTO, orderMaster);
 
-        if(orderMasterRepository.updateOrderSatus(orderDTO.getOrderId(), OrderStatusEnum.FINISHED.getCode())){
+        if(orderMasterRepository.updateOrderSatus(orderDTO.getOrderId(), OrderStatusEnum.FINISHED.getCode()) != 1){
             log.error("【完结订单】更新失败, orderMaster={}", orderMaster);
             throw new SellException(ResultEnum.ORDER_UPDATE_FAIL.getMessage());
         }

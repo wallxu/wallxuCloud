@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="wallxu-seckill-web:war">
-    <output-path>$PROJECT_DIR$/wallxu-seckill/wallxu-seckill-web/target</output-path>
-    <root id="archive" name="wallxu-seckill-web.war">
-      <element id="artifact" artifact-name="wallxu-seckill-web:war exploded" />
-    </root>
-  </artifact>
-</component>

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="wallxu-sell:war">
-    <output-path>$PROJECT_DIR$/wallxu-sell/target</output-path>
-    <root id="archive" name="wallxu-sell.war">
-      <element id="artifact" artifact-name="wallxu-sell:war exploded" />
-    </root>
-  </artifact>
-</component>
