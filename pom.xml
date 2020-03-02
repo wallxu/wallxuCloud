@@ -47,7 +47,7 @@
 		<ehcache.version>2.10.0</ehcache.version>
 		<mysql.version>5.1.32</mysql.version>
 		<druid.version>1.0.9</druid.version>
-		<commons-fileupload.version>1.3.1</commons-fileupload.version>
+		<commons-fileupload.version>1.3.3</commons-fileupload.version>
 		<shiro.version>1.3.2</shiro.version>
 		<spring-cloud.version>2.0.0.RELEASE</spring-cloud.version>
 	</properties>
@@ -417,7 +417,7 @@
 			<dependency>
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-compress</artifactId>
-				<version>1.12</version>
+				<version>1.19</version>
 			</dependency>
 
 			<!-- 文件上传组件 -->
