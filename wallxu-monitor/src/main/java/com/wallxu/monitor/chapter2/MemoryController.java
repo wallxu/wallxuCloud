@@ -30,9 +30,10 @@ public class MemoryController {
 	 * */
 	@GetMapping("/nonheap")
 	public String nonheap() {
-		while(true) {
-			classList.addAll(Metaspace.createClasses());
-		}
+//		while(true) {
+//			classList.addAll(Metaspace.createClasses());
+//		}
+		return "";
 	}
 	
 }
