@@ -12,15 +12,11 @@ _Store
 target/
 target
 overlays/
-*.jar
-.log
 /bin
 /logs
 .DS_Store
 
-# Compiled class file
-*.class
-*.java
+
 
 # Log file
 *.log
