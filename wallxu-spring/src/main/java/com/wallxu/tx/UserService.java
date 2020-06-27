@@ -1,22 +1,29 @@
 package com.wallxu.tx;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
-@Service
+//@Service
 public class UserService {
 	
-	@Autowired
+//	@Autowired
 	private UserDao userDao;
 	
 	@Transactional
-	public void insertUser(){
-		userDao.insert();
-		//otherDao.other();xxx
-		System.out.println("²åÈëÍê³É...");
+	public void insertUser(UserEntity userEntity){
+		userDao.insert(userEntity);
+		System.out.println("æ’å…¥å®Œæˆ..." + userEntity);
+//		int i = 10/0;
+	}
+
+	@Transactional(rollbackFor = Exception.class)
+	public void update(UserEntity userEntity){
+		userDao.update(userEntity);
+		System.out.println("æ›´æ–°å®Œæˆ..." + userEntity);
 		int i = 10/0;
 	}
 
+	public UserEntity findByUsername(String userName){
+		return userDao.findByUsername(userName);
+	}
 }
