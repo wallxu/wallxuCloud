@@ -13,9 +13,7 @@
         <module>wallxu-cloud</module>
 		<module>wallxu-monitor</module>
 		<module>wallxu-sell</module>
-		<module>wallxu-dataStructures</module>
         <module>wallxu-mmall</module>
-        <module>wallxu-spring</module>
     </modules>
     <packaging>pom</packaging>
 
